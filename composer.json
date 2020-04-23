@@ -1,0 +1,28 @@
+{
+    "name": "ruke318/elasticsearch",
+    "description": "elasticsearch",
+	"keywords": ["elasticsearch", "ruke318","laravel","php"],
+	"homepage": "https://github.com/ruke318/elasticsearch",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6",
+        "illuminate/support": "5.4.36",
+        "elasticsearch/elasticsearch": "5.3.2"
+    },
+	"autoload": {
+        "files": [
+        ],
+        "psr-4": {
+            "CrCms\\ElasticSearch\\": "src/"
+        }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "CrCms\\ElasticSearch\\LaravelServiceProvider"
+        ],
+        "aliases": {
+        }
+      }
+    }
+}
